@@ -1,0 +1,38 @@
+.button, .disabledButton, .hiddenbutton {
+    cursor:pointer;
+    background-color: lightgrey;
+    border-radius: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    padding: 15px 32px;
+
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+	width: 50px;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	color: black;
+}
+
+.disabledButton {
+	display: inline-block;
+    color: dimgrey;
+}
+
+.hiddenButton {
+	display:none;
+}
+
+.writer {
+    cursor: default;
+    width: 750px;
+    height: 300px;
+    overflow-y: scroll;
+    word-wrap: normal;
+    border: 1px solid dimgray;
+    font-family: arial, helvetica, sans-serif;
+}
